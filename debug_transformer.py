@@ -1,10 +1,3 @@
-"""
-Debugging Script for Transformer Model
-This script is designed to be run in PyCharm with WSL for step-by-step debugging.
-
-Set breakpoints at the marked locations to capture the 43 required snapshots.
-"""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -518,3 +511,4 @@ def debug_transformer_forward_pass():
 if __name__ == "__main__":
     # Run the debugging session
     debug_transformer_forward_pass()
+
